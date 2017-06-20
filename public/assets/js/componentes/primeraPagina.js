@@ -40,6 +40,46 @@ const PrimeraPagina = () => {
   rowBtn.append(colBtn);
   divSection.append(rowBtn);
 
+  btn.on('click',(e) => {
+    e.preventDefault();
+    divSection.empty();
+    divSection.append(SegundaPagina());
+  });
 
   return divSection;
 };
+
+const SegundaPagina = () => {
+  const divSection = $('<div></div>');
+  const rowPhone = $('<div class="row"></div>');
+  const colPhone = $('<div class="col s12" id="colPhone"></div>');
+  const divPhone = $('<div id="divPhone"></div>');
+  const ImgPhone = $('<img src="img/icons/phone.png">');
+
+  const divTexto = $('<div id="divTexto"></div>');
+  const h5 = $('<h5>Para comenzar validemos tu número</h5>')
+  const p = $('<p>Recibirás un SMS con un código de validación</p>');
+
+  const rowInput = $('<div class="row"></div>');
+  const colInput = $('<div class="col s12" id="colInput"></div>');
+  const divInput = $('<div id="divInput"></div>');
+  const input = $('<input placeholder="Ingresa tu número">');
+
+    divPhone.append(ImgPhone);
+
+    divTexto.append(h5);
+    divTexto.append(p);
+
+
+    divInput.append(input);
+    colInput.append(divInput);
+    rowInput.append(colInput);
+
+    colPhone.append(divPhone);
+    colPhone.append(divTexto);
+    rowPhone.append(colPhone);
+
+    divSection.append(rowPhone);
+    divSection.append(rowInput);
+    return divSection;
+}

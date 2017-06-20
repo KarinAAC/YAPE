@@ -52,3 +52,29 @@ margin: 5px;
 .guia:hover{
   background: #f64552;
 }
+#colPhone{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#divPhone{
+  width: 100px;
+  height: 80px;
+  margin: 80px 40px 10px 40px;
+}
+#divPhone img{
+      width: 100px;
+      height: 80px;
+}
+
+#divTexto  h5{
+  text-align: center;
+}
+#divTexto  p{
+ text-align: center;
+ color: #8f8f8f;
+}
+
+#divInput{
+      padding: 0 20px 0 20px;
+}

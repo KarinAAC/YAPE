@@ -57,4 +57,8 @@ $( _ => {
 		avanzarSlider();
 	}, 4000);
 
+    /*$('#btn').on('click', function() {
+      alert('go');
+    });*/
+
 });
