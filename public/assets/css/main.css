@@ -1,0 +1,54 @@
+
+#colSlider{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#divSlider{
+  width: 220px;
+  height: 220px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#divSlider img{
+  width: 220px;
+  height: 220px;
+}
+#divTextSlider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#divTextSlider  p{
+  text-align: center;
+  color:#8f8f8f;
+}
+#colBtn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#btn{
+  background: #fbd43b;
+  width: 250px;
+}
+
+#colGuiador{
+  display: flex;
+  justify-content: center;
+}
+.guia{
+  width: 10px;
+height: 10px;
+background: #8f8f8f;
+/*background: #f64552;*/
+border-radius: 50%;
+display: inline-block;
+margin: 5px;
+}
+.guia:hover{
+  background: #f64552;
+}
