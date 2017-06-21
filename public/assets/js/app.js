@@ -55,7 +55,7 @@ $( _ => {
 // TIEMPO DE PASE PARA EL SLIDE
   setInterval(function(){
 		avanzarSlider();
-	}, 4000);
+	}, 2500);
 
 
 });
