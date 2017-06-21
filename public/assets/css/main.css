@@ -67,14 +67,67 @@ margin: 5px;
       height: 80px;
 }
 
-#divTexto  h5{
+.h5{
   text-align: center;
 }
-#divTexto  p{
+.p{
  text-align: center;
  color: #8f8f8f;
 }
 
 #divInput{
-      padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
+}
+
+#divInput input[type="text"]{
+  display: inline-block;
+  width: 200px;
+}
+
+#divInput img{
+  width: 60px;
+  height: 30px;
+  display: inline-block;
+  margin-bottom: -10px;
+}
+#divInput span{
+  color: #00c3a3;
+}
+
+#btn2{
+  background: #fbd43b;
+  width: 130px;
+}
+#divTextoSms span{
+  color: black;
+}
+#divInputSms{
+  padding: 0 20px 0 30px;
+}
+#divInputSms img{
+  width: 15px;
+  height: 20px;
+  display: inline-block;
+  margin-bottom: -10px;
+  margin-right: 10px;
+}
+#divInputSms input[type="text"]{
+  display: inline-block;
+  width: 240px;
+}
+#iconTime{
+display: inline-block;
+width: 20px;
+height: 20px;
+margin-top: 15px;
+position: absolute;
+margin-left: 5px;
+}
+#divInputSms p{
+  display: inline-block;
+  margin-left: 80px;
+}
+#pForm{
+  margin-left: 0 !important;
+   color: #8f8f8f;
 }
